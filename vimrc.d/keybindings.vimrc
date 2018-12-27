@@ -1,5 +1,5 @@
 " disable prior key mappings (split-term.vim)
-let g:disable_key_mappings
+"let g:split_term_disable_key_mappings
 
 " map Leader key
 let mapleader = "\\"
