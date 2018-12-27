@@ -21,6 +21,9 @@ augroup omnifuncs
   autocmd FileType php setlocal omnifunc=phpcomplete#CompletePHP
 augroup end
 
+" split-term.vim
+let g:split_term_default_shell="bash"
+
 " vim-slime, vim-slimeblocks
 let g:slime_target="neovim"
 let g:slime_python_ipython=1

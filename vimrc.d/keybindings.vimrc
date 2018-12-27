@@ -1,3 +1,6 @@
+" disable prior key mappings (split-term.vim)
+let g:disable_key_mappings
+
 " map Leader key
 let mapleader = "\\"
 
@@ -49,6 +52,11 @@ inoremap <expr><TAB> pumvisible() ? "\<C-n>" : "\<TAB>"
 let g:UltiSnipsExpandTrigger="<TAB>"
 let g:UltiSnipsJumpForwardTrigger="<C-b>"
 let g:UltiSnipsJumpBackwardTrigger="<C-z>"
+
+" -- split-term.vim
+map <Leader>t :Term node
+map <Leader>tv :VTerm node
+map <Leader>tt :TTerm node
 
 " -- vim-slime
 let g:slime_no_mappings=1
