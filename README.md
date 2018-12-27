@@ -1,7 +1,4 @@
 ".config/nvim" directory
 ========================
 
-additional info:
-----------------
-
-used by Vagrant/provisions/bootstrap2.sh
+used by jjlinscientist/Vagrant/provisions/bootstrap2.sh
