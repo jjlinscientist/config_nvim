@@ -1,7 +1,7 @@
 call plug#begin('~/.config/nvim/plugged')
 
 " general
-Plug 'jalvesaq/Nvim-R'
+"Plug 'jalvesaq/Nvim-R'
 Plug 'ervandew/supertab'
 Plug 'Shougo/deoplete.nvim'
 Plug 'wellle/tmux-complete.vim'
@@ -9,6 +9,8 @@ Plug 'christoomey/vim-tmux-navigator'
 Plug 'scrooloose/nerdtree', {'on': 'NERDTreeToggle'}
 
 " editing code
+Plug 'jpalardy/vim-slime'
+Plug 'pimentel/vim-slimeblocks'
 Plug 'tpope/vim-surround'
 Plug 'ternjs/tern_for_vim', { 'for': ['javascript', 'javascript.jsx']  } " for javascript with Tern
 Plug 'zchee/deoplete-jedi' " for python
