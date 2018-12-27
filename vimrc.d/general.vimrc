@@ -3,6 +3,7 @@ syntax enable
 set hlsearch
 set number
 set backspace=indent,eol,start
+color ron
 
 if has("vms")
 	set nobackup " don't keep backup file if versioning

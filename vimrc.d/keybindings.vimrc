@@ -52,8 +52,8 @@ let g:UltiSnipsJumpBackwardTrigger="<C-z>"
 
 " -- vim-slime
 let g:slime_no_mappings=1
-noremap <Leader>f :call b:SlimeBlocksFunction()<cr>
-noremap <Leader>r :call b:SlimeBlocksFenced()<cr>
+" noremap <Leader>f :call b:SlimeBlocksFunction()<cr>
+" noremap <Leader>r :call b:SlimeBlocksFenced()<cr>
 noremap <Leader>v <Plug>SlimeRegionSend
 noremap <Leader>l <Plug>SlimeLineSend
 noremap <Leader>s <Plug>SlimeLineSend

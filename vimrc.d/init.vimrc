@@ -21,5 +21,6 @@ Plug 'nathanaelkane/vim-indent-guides' " `,ig` to toggle
 
 " visual
 Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 
 call plug#end()
