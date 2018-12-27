@@ -1,5 +1,5 @@
 " map Leader key
-let mapleader = "\"
+let mapleader = "\\"
 
 " navigate around nvim lines
 map <C-j> <C-W>j

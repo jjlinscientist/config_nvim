@@ -7,7 +7,7 @@ set display+=lastline
 set laststatus=2 " always show status line
 set showtabline=2 " always show tabline
 set noshowmode " hide default mode text (e.g. INSERT) as airline already
-displays it
+"displays it
 
 " airline config
 let g:airline_powerline_fonts=1
