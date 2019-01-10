@@ -54,7 +54,7 @@ let g:UltiSnipsJumpForwardTrigger="<C-b>"
 let g:UltiSnipsJumpBackwardTrigger="<C-z>"
 
 " -- split-term.vim
-map <Leader>t :Term
+map <Leader>th :Term
 map <Leader>tv :VTerm
 map <Leader>tt :TTerm
 map <Leader>tid :echo b:terminal_job_id
