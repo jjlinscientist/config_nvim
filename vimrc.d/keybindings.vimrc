@@ -54,15 +54,16 @@ let g:UltiSnipsJumpForwardTrigger="<C-b>"
 let g:UltiSnipsJumpBackwardTrigger="<C-z>"
 
 " -- split-term.vim
-map <Leader>t :Term node
-map <Leader>tv :VTerm node
-map <Leader>tt :TTerm node
+map <Leader>t :Term
+map <Leader>tv :VTerm
+map <Leader>tt :TTerm
+map <Leader>tid :echo b:terminal_job_id
 
 " -- vim-slime
 let g:slime_no_mappings=1
 " noremap <Leader>f :call b:SlimeBlocksFunction()<cr>
 " noremap <Leader>r :call b:SlimeBlocksFenced()<cr>
-noremap <Leader>v <Plug>SlimeRegionSend
-noremap <Leader>l <Plug>SlimeLineSend
-noremap <Leader>s <Plug>SlimeLineSend
-noremap <Leader>b <Plug>SlimeParagraphSend
+xmap <Leader>v <Plug>SlimeRegionSend
+nmap <Leader>l <Plug>SlimeLineSend
+nmap <Leader>s <Plug>SlimeConfig
+nmap <Leader>b <Plug>SlimeParagraphSend

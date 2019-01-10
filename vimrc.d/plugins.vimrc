@@ -28,3 +28,4 @@ let g:split_term_default_shell="bash"
 let g:slime_target="neovim"
 let g:slime_python_ipython=1
 let g:SlimeBlocksVerbose=1
+let g:slime_dont_ask_default=0
