@@ -46,7 +46,7 @@ nmap <Leader>f zf%
 
 " -- autocomplete
 let g:SuperTabDefaultCompletionType = "<c-x><c-o>"
-inoremap <expr><TAB> pumvisible() ? "\<C-n>" : "\<TAB>"
+inoremap <expr><TAB>  pumvisible() ? "\<C-n>" : "\<TAB>"
 
 " -- ultisnips
 let g:UltiSnipsExpandTrigger="<TAB>"
