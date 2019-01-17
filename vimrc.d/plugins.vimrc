@@ -8,6 +8,7 @@ let g:tern#command=['tern']
 let g:tern#arguments=['--persistent']
 let g:tern_request_timeout=1
 let g:SuperTabClosePreviewOnPopupClose=1
+let g:SuperTabDefaultCompletionType = "<c-x><c-o>"
 "let g:deoplete#sources#jedi#enable_typeinfo=0
 "let g:deoplete#sources#jedi#ignore_errors=0
 
