@@ -1,5 +1,3 @@
-source $HOME/.config/nvim/vimrc.d/init.vimrc
-source $HOME/.config/nvim/vimrc.d/general.vimrc
-source $HOME/.config/nvim/vimrc.d/plugins.vimrc
-source $HOME/.config/nvim/vimrc.d/keybindings.vimrc
-source $HOME/.config/nvim/vimrc.d/statusline.vimrc
+for f in split(glob('$HOME/.config/nvim/vimrc.d/*.vimrc'), '\n')
+    exe 'source' f
+endfor
