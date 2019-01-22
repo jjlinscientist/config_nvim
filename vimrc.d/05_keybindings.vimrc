@@ -4,6 +4,9 @@
 " map Leader key
 let mapleader = "\\"
 
+" horizontal line insertion
+map <Leader>hb o============================================================= <Esc>
+
 " navigate around nvim lines
 map <C-j> <C-W>j
 map <C-k> <C-W>k
@@ -48,9 +51,9 @@ nmap <Leader>f zf%
 inoremap <expr><TAB> pumvisible() ? "\<C-n>" : "\<TAB>"
 
 " -- ultisnips
-let g:UltiSnipsExpandTrigger="<TAB>"
-let g:UltiSnipsJumpForwardTrigger="<C-b>"
-let g:UltiSnipsJumpBackwardTrigger="<C-z>"
+" let g:UltiSnipsExpandTrigger="<TAB>"
+" let g:UltiSnipsJumpForwardTrigger="<C-b>"
+" let g:UltiSnipsJumpBackwardTrigger="<C-z>"
 
 " -- split-term.vim
 map <Leader>th :Term
