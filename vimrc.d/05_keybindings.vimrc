@@ -5,13 +5,20 @@
 let mapleader = "\\"
 
 " horizontal line insertion
-map <Leader>hb o============================================================= <Esc>
+map <Leader>hb ============================================================= <Esc>
+
+" remap navigation keys
+" originally, k='up', j='down', h='left', and l='right'
+noremap j h
+noremap h i
+noremap i k
+noremap k j
 
 " navigate around nvim lines
-map <C-j> <C-W>j
-map <C-k> <C-W>k
-map <C-h> <C-W>h
-map <C-l> <C-W>l
+nnoremap <C-k> <C-W>j
+nnoremap <C-i> <C-W>k
+nnoremap <C-j> <C-W>h
+nnoremap <C-l> <C-W>l
 
 " window navigation
 nnoremap <Leader>w< <C-w><
