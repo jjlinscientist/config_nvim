@@ -15,9 +15,9 @@ noremap i k
 noremap k j
 
 " navigate around nvim lines
-nnoremap <C-k> <C-W>j
-nnoremap <C-i> <C-W>k
 nnoremap <C-j> <C-W>h
+nnoremap <C-i> <C-W>k
+nnoremap <C-k> <C-W>j
 nnoremap <C-l> <C-W>l
 
 " window navigation
