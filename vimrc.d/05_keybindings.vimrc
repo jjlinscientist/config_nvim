@@ -4,8 +4,11 @@
 " map Leader key
 let mapleader = "\\"
 
+" remap <Esc>
+inoremap <Leader>` <Esc>
+
 " horizontal line insertion
-map <Leader>hb ============================================================= <Esc>
+map <Leader>p h============================================================= <Esc>
 
 " remap navigation keys
 " originally, k='up', j='down', h='left', and l='right'
@@ -55,7 +58,7 @@ nmap <Leader>f zf%
 " Plugin-specific keybindings
 
 " -- autocomplete
-inoremap <expr><TAB> pumvisible() ? "\<C-n>" : "\<TAB>"
+" inoremap <expr><TAB> pumvisible() ? "\<C-n>" : "\<TAB>"
 
 " -- ultisnips
 " let g:UltiSnipsExpandTrigger="<TAB>"
