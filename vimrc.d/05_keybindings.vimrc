@@ -42,7 +42,7 @@ nnoremap <F5> :source $HOME/.config/nvim/init.vim
 inoremap <C-U> <C-G>u<C-U>
 
 " toggle relative line numbers
-nnoremap <Leader>3 :NumbersToggle<CR>
+nnoremap <Leader>3 :set nu!<CR>
 
 " remap number increment to C-s (in case C-a is used by tmux)
 "nmap <C-s> <C-a>
