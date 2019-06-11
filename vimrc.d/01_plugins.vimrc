@@ -26,7 +26,10 @@ augroup end
 let g:split_term_default_shell="bash"
 
 " vim-slime, vim-slimeblocks
-let g:slime_target="neovim"
+" let g:slime_target="neovim"
+let g:slime_target="tmux"
+let g:slime_paste_file = "$HOME/.slime_paste_file"
+let g:slime_default_config = "vimtarget"
 let g:slime_python_ipython=1
 let g:SlimeBlocksVerbose=1
 let g:slime_dont_ask_default=0
