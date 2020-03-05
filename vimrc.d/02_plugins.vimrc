@@ -2,7 +2,7 @@ call plug#begin('~/.config/nvim/plugged')
 
 " general
 "Plug 'ervandew/supertab'
-Plug 'Shougo/deoplete.nvim'
+Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'vimlab/split-term.vim'
 Plug 'wellle/tmux-complete.vim'
 Plug 'christoomey/vim-tmux-navigator'
