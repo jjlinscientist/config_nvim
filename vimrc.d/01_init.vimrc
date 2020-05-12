@@ -2,15 +2,15 @@ filetype plugin indent on
 
 " deoplete
 let g:deoplete#enable_at_startup=1
-let g:deoplete#sources={}
-let g:deoplete#sources['javascript.jsx']=['file', 'ultisnips', 'ternjs']
+let g:deoplete#custom#option={}
+let g:deoplete#custom#option['javascript.jsx']=['file', 'ultisnips', 'ternjs']
 let g:tern#command=['tern']
 let g:tern#arguments=['--persistent']
 let g:tern_request_timeout=1
 let g:SuperTabClosePreviewOnPopupClose=1
 let g:SuperTabDefaultCompletionType = "<c-x><c-o>"
-"let g:deoplete#sources#jedi#enable_typeinfo=0
-"let g:deoplete#sources#jedi#ignore_errors=0
+"let g:deoplete#custom#option#jedi#enable_typeinfo=0
+"let g:deoplete#custom#option#jedi#ignore_errors=0
 
 " completion
 augroup omnifuncs
