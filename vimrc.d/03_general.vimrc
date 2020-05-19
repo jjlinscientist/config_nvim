@@ -74,3 +74,6 @@ autocmd BufNewFile,BufRead,BufEnter *.md,*.markdown :syntax match markdownIgnore
 set clipboard=unnamedplus
 
 set completeopt=longest,menuone,preview
+
+" colorcolumn color
+hi ColorColumn ctermbg=000000 guibg=000000
