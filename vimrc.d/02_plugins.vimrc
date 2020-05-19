@@ -22,6 +22,7 @@ Plug 'airblade/vim-gitgutter'
 Plug 'nathanaelkane/vim-indent-guides' " `,ig` to toggle
 
 " visual
+Plug 'LukeGoodsell/nextflow-vim'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 
